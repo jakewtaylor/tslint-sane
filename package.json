@@ -1,6 +1,6 @@
 {
   "name": "tslint-sane",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./base.json",
   "repository": "https://github.com/jakewtaylor/tslint-sane",
   "author": "Jake Taylor <me@jaketaylor.co>",
@@ -9,8 +9,6 @@
     "build": "node build.js"
   },
   "devDependencies": {
-    "js-yaml": "^3.11.0",
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit": ["build"]
+    "js-yaml": "^3.11.0"
+  }
 }
