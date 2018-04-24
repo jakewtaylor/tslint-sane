@@ -1,6 +1,6 @@
 {
   "name": "tslint-sane",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./base.json",
   "repository": "https://github.com/jakewtaylor/tslint-sane",
   "author": "Jake Taylor <me@jaketaylor.co>",
