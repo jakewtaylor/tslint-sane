@@ -4,5 +4,13 @@
   "main": "./base.json",
   "repository": "https://github.com/jakewtaylor/tslint-sane",
   "author": "Jake Taylor <me@jaketaylor.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^3.11.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": ["build"]
 }
