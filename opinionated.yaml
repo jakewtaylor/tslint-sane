@@ -1,4 +1,4 @@
-extends: ./tslint-base.yaml
+extends: ./base.json
 rules:
     # Forces single line comments to have a space after the slashes
     # i.e.
